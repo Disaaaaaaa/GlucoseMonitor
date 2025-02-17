@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета -->
+    <color name="primary">#403D8D</color>          <!-- Dark Blue -->
+    <color name="primary_variant">#4A478F</color>  <!-- Slightly lighter blue -->
+    <color name="primary_dark">#2D2A7A</color>     <!-- Darker blue -->
+    <color name="accent">#1BB0B8</color>           <!-- Teal -->
+    <color name="accent_variant">#17B4B4</color>   <!-- Darker teal -->
+    
+    <!-- Фоновые цвета -->
+    <color name="background_primary">#F8F9FF</color>    <!-- Very light blue-tinted white -->
+    <color name="background_secondary">#F0F1FA</color>  <!-- Light blue-gray -->
+    <color name="surface">#FFFFFF</color>               <!-- Pure white -->
+    
+    <!-- Цвета текста -->
+    <color name="text_primary">#1A1C2B</color>      <!-- Very dark blue -->
+    <color name="text_secondary">#4A4D66</color>    <!-- Medium gray-blue -->
+    <color name="text_tertiary">#6E7187</color>     <!-- Light gray-blue -->
+    
+    <!-- Цвета состояний -->
+    <color name="success">#4CAF50</color>           <!-- Green -->
+    <color name="warning">#FFC107</color>           <!-- Amber -->
+    <color name="error">#F44336</color>             <!-- Red -->
+    
+    <!-- Цвета графиков -->
+    <color name="chart_line">#403D8D</color>        <!-- Dark Blue -->
+    <color name="chart_grid">#E0E2F5</color>        <!-- Very light blue -->
+    <color name="chart_limit_line">#1BB0B8</color>  <!-- Teal -->
+</resources>

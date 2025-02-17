@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glucose Monitor</string>
+    
+    <!-- Приветствие -->
+    <string name="welcome_text">Добро пожаловать в Glucose Monitor!\nВаш помощник в неинвазивном измерении уровня глюкозы</string>
+    <string name="about_us">Мы разрабатываем инновационные решения для неинвазивного мониторинга уровня глюкозы. Наша цель - сделать контроль диабета более комфортным и доступным.</string>
+    
+    <!-- Секция измерений -->
+    <string name="measurement_title">Измерение уровня глюкозы</string>
+    <string name="measurement_instruction">Для наилучших результатов:\n\n
+• Используйте мочку уха для измерения:\n
+  - Тонкая ткань с хорошим кровоснабжением\n
+  - Минимальное количество мышечной ткани\n
+  - Стабильное положение\n\n
+• Подготовка к измерению:\n
+  - Очистите область измерения\n
+  - Подождите 1-2 минуты для стабилизации\n
+  - Избегайте резких движений\n\n
+• Во время измерения:\n
+  - Держите камеру стабильно\n
+  - Следите за индикатором качества\n
+  - Дождитесь завершения анализа</string>
+    
+    <!-- Секция управления данными -->
+    <string name="data_management_title">Управление данными</string>
+    <string name="data_management_instruction">Ведите регулярный учет измерений для отслеживания динамики. Учитывайте время суток и прием пищи при анализе результатов.</string>
+    <string name="view_history">История измерений</string>
+    <string name="export_data">Экспорт данных</string>
+    
+    <!-- Секция калибровки -->
+    <string name="calibration_title">Калибровка и точность</string>
+    <string name="calibration_instruction">Для повышения точности:\n\n
+• Проводите калибровку регулярно\n
+• Сравнивайте с показаниями обычного глюкометра\n
+• Учитывайте следующие факторы:\n
+  - Температура измеряемой области\n
+  - Стабильность положения\n
+  - Внешнее освещение\n
+  - Чистота камеры\n
+  - Индивидуальные особенности\n\n
+Рекомендуется проводить калибровку в разное время суток и при разных уровнях глюкозы.</string>
+
+    <!-- Кнопки -->
+    <string name="start_camera">Начать измерение</string>
+    <string name="train_model">Калибровка</string>
+    <string name="calibration_stats">Статистика точности</string>
+    <string name="switch_language">Switch to English</string>
+
+    <!-- Диалоги -->
+    <string name="measurement_quality_low">Низкое качество измерения. Убедитесь, что:\n
+• Камера стабильна\n
+• Освещение достаточное\n
+• Область измерения правильно расположена</string>
+    <string name="measurement_quality_good">Хорошее качество измерения</string>
+    <string name="measurement_in_progress">Выполняется измерение…\nПожалуйста, не двигайтесь</string>
+
+    <!-- Измерение -->
+    <string name="take_measurement">Измерить</string>
+    <string name="measurement_result">Результат измерения</string>
+    <string name="save_measurement">Сохранить результат</string>
+    <string name="retry_measurement">Повторить измерение</string>
+    <string name="glucose_value">%.1f ммоль/л</string>
+    <string name="quality_indicator">Качество: %d%%</string>
+
+    <!-- Состояния уровня глюкозы -->
+    <string name="glucose_state_low">Низкий уровень глюкозы!\nНиже нормы</string>
+    <string name="glucose_state_normal">Нормальный уровень глюкозы</string>
+    <string name="glucose_state_high">Высокий уровень глюкозы!\nВыше нормы</string>
+    <string name="glucose_range">Норма: 3.9–6.1 ммоль/л</string>
+    <string name="glucose_trend">Тренд: %s</string>
+    <string name="trend_rising">↑ Повышается</string>
+    <string name="trend_stable">→ Стабильный</string>
+    <string name="trend_falling">↓ Понижается</string>
+
+    <!-- История -->
+    <string name="clear_history">Очистить историю</string>
+    <string name="clear_history_confirm">Вы уверены, что хотите удалить все измерения?</string>
+    <string name="clear_history_success">История очищена</string>
+
+    <!-- Навигация -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_measurement">Измерение</string>
+    <string name="nav_history">История</string>
+    <string name="nav_calibration">Калибровка</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_drawer_open">Открыть меню</string>
+    <string name="nav_drawer_close">Закрыть меню</string>
+
+    <string name="recent_measurements">Последние измерения</string>
+    <string name="last_measurement">Последнее измерение: %1$s\n%2$s</string>
+    <string name="no_measurements">Нет данных измерений</string>
+
+    <!-- Calibration Dialog -->
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="last_calibration_measurement">Последнее измерение: %.1f ммоль/л</string>
+    <string name="enter_glucometer_value">Введите значение с глюкометра</string>
+    <string name="current_value">Текущее значение: %.1f ммоль/л</string>
+    <string name="invalid_value">Некорректное значение</string>
+    <string name="enter_value">Введите значение с глюкометра</string>
+    <string name="calibration_saved">Данные сохранены для калибровки</string>
+    <string name="calibration_error">Ошибка сохранения данных</string>
+
+    <!-- Results Screen -->
+    <string name="return_home">Вернуться на главную</string>
+
+    <!-- New strings from the code block -->
+    <string name="capture_value">Захватить текущее значение</string>
+    <string name="value_captured">Захваченное значение: %.1f ммоль/л</string>
+    <string name="start_capture">Начать захват</string>
+
+    <!-- Calibration Stats -->
+    <string name="no_calibration_data">Нет данных калибровки</string>
+    <string name="calibration_stats_format">Статистика калибровки:\n\n
+Количество калибровок: %d\n
+Точность: %.1f%%\n
+Средняя ошибка: %.2f ммоль/л\n
+Максимальная ошибка: %.2f ммоль/л\n
+Стандартное отклонение: %.2f ммоль/л</string>
+    <string name="measurements">Измерения</string>
+    <string name="ideal_correlation">Идеальная корреляция</string>
+    <string name="measurement_correlation">Корреляция измерений</string>
+
+    <!-- Chart Labels -->
+    <string name="glucose_level">Уровень глюкозы</string>
+    <string name="lower_limit">Нижняя граница</string>
+    <string name="upper_limit">Верхняя граница</string>
+    <string name="mmol_l">ммоль/л</string>
+    <string name="time">Время</string>
+</resources> 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_measurement"
+            android:icon="@drawable/ic_measurement"
+            android:title="@string/nav_measurement" />
+        <item
+            android:id="@+id/nav_calibration"
+            android:icon="@drawable/ic_calibration"
+            android:title="@string/nav_calibration" />
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_language"
+            android:title="@string/switch_language" />
+    </group>
+</menu> 

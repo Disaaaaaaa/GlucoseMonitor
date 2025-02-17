@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glucose Monitor</string>
+    
+    <!-- Welcome -->
+    <string name="welcome_text">Welcome to Glucose Monitor!\nYour assistant in non-invasive glucose measurement</string>
+    
+    <!-- Measurement section -->
+    <string name="measurement_title">Glucose Level Measurement</string>
+    <string name="measurement_instruction">For best results:\n\n
+• Use earlobe for measurement:\n
+  - Thin tissue with good blood supply\n
+  - Minimal muscle tissue\n
+  - Stable position\n\n
+• Preparation for measurement:\n
+  - Clean the measurement area\n
+  - Wait 1-2 minutes for stabilization\n
+  - Avoid sudden movements\n\n
+• During measurement:\n
+  - Keep the camera stable\n
+  - Monitor quality indicator\n
+  - Wait for analysis completion</string>
+    
+    <!-- Data management section -->
+    <string name="data_management_title">Data Management</string>
+    <string name="data_management_instruction">Keep regular records of measurements to track dynamics. Consider time of day and meals when analyzing results.</string>
+    <string name="view_history">Measurement History</string>
+    <string name="export_data">Export Data</string>
+    
+    <!-- Calibration section -->
+    <string name="calibration_title">Calibration and Accuracy</string>
+    <string name="calibration_instruction">To improve accuracy:\n\n
+• Perform calibration regularly\n
+• Compare with regular glucometer readings\n
+• Consider the following factors:\n
+  - Measurement area temperature\n
+  - Position stability\n
+  - Ambient lighting\n
+  - Camera cleanliness\n
+  - Individual characteristics\n\n
+It is recommended to perform calibration at different times of day and at different glucose levels.</string>
+
+    <!-- Buttons -->
+    <string name="start_camera">Start Measurement</string>
+    <string name="train_model">Calibrate</string>
+    <string name="calibration_stats">Accuracy Statistics</string>
+    <string name="switch_language">Switch to Русский</string>
+
+    <!-- Dialogs -->
+    <string name="measurement_quality_low">Low measurement quality. Make sure that:\n
+• Camera is stable\n
+• Lighting is sufficient\n
+• Measurement area is properly positioned</string>
+    <string name="measurement_quality_good">Good measurement quality</string>
+    <string name="measurement_in_progress">Measurement in progress…\nPlease don\'t move</string>
+
+    <!-- Measurement -->
+    <string name="take_measurement">Take Measurement</string>
+    <string name="measurement_result">Measurement Result</string>
+    <string name="save_measurement">Save Result</string>
+    <string name="retry_measurement">Retry Measurement</string>
+    <string name="glucose_value">%.1f mmol/L</string>
+    <string name="quality_indicator">Quality: %d%%</string>
+
+    <!-- Glucose Level States -->
+    <string name="glucose_state_low">Low Glucose Level!\nBelow normal range</string>
+    <string name="glucose_state_normal">Normal Glucose Level</string>
+    <string name="glucose_state_high">High Glucose Level!\nAbove normal range</string>
+    <string name="glucose_range">Normal range: 3.9–6.1 mmol/L</string>
+    <string name="glucose_trend">Trend: %s</string>
+    <string name="trend_rising">↑ Rising</string>
+    <string name="trend_stable">→ Stable</string>
+    <string name="trend_falling">↓ Falling</string>
+
+    <!-- History -->
+    <string name="clear_history">Clear History</string>
+    <string name="clear_history_confirm">Are you sure you want to clear all measurements?</string>
+    <string name="clear_history_success">History cleared</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_measurement">Measurement</string>
+    <string name="nav_history">History</string>
+    <string name="nav_calibration">Calibration</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+
+    <!-- New strings -->
+    <string name="about_us">We develop innovative solutions for non-invasive glucose monitoring. Our goal is to make diabetes control more comfortable and accessible.</string>
+    <string name="recent_measurements">Recent Measurements</string>
+    <string name="last_measurement">Last measurement: %1$s\n%2$s</string>
+    <string name="no_measurements">No measurement data</string>
+
+    <!-- Calibration Dialog -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="last_calibration_measurement">Last measurement: %.1f mmol/L</string>
+    <string name="enter_glucometer_value">Enter glucometer value</string>
+    <string name="current_value">Current value: %.1f mmol/L</string>
+    <string name="invalid_value">Invalid value</string>
+    <string name="enter_value">Please enter glucometer value</string>
+    <string name="calibration_saved">Calibration data saved</string>
+    <string name="calibration_error">Error saving data</string>
+
+    <!-- Results Screen -->
+    <string name="return_home">Return to Home</string>
+
+    <!-- New strings from the code block -->
+    <string name="capture_value">Capture Current Value</string>
+    <string name="value_captured">Value captured: %.1f mmol/L</string>
+    <string name="start_capture">Start capture</string>
+
+    <!-- Calibration Stats -->
+    <string name="no_calibration_data">No calibration data available</string>
+    <string name="calibration_stats_format">Calibration Statistics:\n\n
+Number of calibrations: %d\n
+Accuracy: %.1f%%\n
+Mean error: %.2f mmol/L\n
+Maximum error: %.2f mmol/L\n
+Standard deviation: %.2f mmol/L</string>
+    <string name="measurements">Measurements</string>
+    <string name="ideal_correlation">Ideal correlation</string>
+    <string name="measurement_correlation">Measurement Correlation</string>
+
+    <!-- Chart Labels -->
+    <string name="glucose_level">Glucose Level</string>
+    <string name="lower_limit">Lower Limit</string>
+    <string name="upper_limit">Upper Limit</string>
+    <string name="mmol_l">mmol/L</string>
+    <string name="time">Time</string>
+</resources>
